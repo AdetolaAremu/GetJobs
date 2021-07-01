@@ -49,7 +49,7 @@
   }
   
   .nav-links {
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -153,5 +153,9 @@
       background: #fff;
       color: #242424;
       transition: 250ms;
+    }
+
+    .nav-links {
+      color: white;
     }
   }

@@ -59,13 +59,13 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link
-                to='/services'
+              <a
+                href="https://github.com/AdetolaAremu/GetJobs"
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Github Repo
-              </Link>
+              </a>
             </li>
             <li>
               <Link

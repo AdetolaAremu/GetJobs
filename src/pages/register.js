@@ -6,7 +6,7 @@ function Register() {
       <div>
         <div className='text-center my-2'>
           <p className='font-bold text-2xl'>REGISTRATION PAGE</p>
-          <p>Please note that any field marked <span className='font-bold text-red-700'>(*)</span> is mandatory</p>
+          <p className="mt-2">Please note that any field marked <span className='font-bold text-red-700'>(*)</span> is mandatory</p>
         </div>
         <form className='rounded-lg bg-gray-200 p-2 my-2'>
           <div>
@@ -22,6 +22,22 @@ function Register() {
               <div className="mb-1"><label>Username <span className="text-red-700">*</span></label></div>
               <div>
                 <input type="text" className='border-2 border-purple-700 h-10 px-3 rounded-md w-80' 
+                  placeholder="Enter Vacant Position"
+                />
+              </div>
+            </div>
+            <div className='text-center my-2'>
+              <div className="mb-1"><label>Password <span className="text-red-700">*</span></label></div>
+              <div>
+                <input type="password" className='border-2 border-purple-700 h-10 px-3 rounded-md w-80' 
+                  placeholder="Enter Vacant Position"
+                />
+              </div>
+            </div>
+            <div className='text-center my-2'>
+              <div className="mb-1"><label>Confirm Password <span className="text-red-700">*</span></label></div>
+              <div>
+                <input type="password" className='border-2 border-purple-700 h-10 px-3 rounded-md w-80' 
                   placeholder="Enter Vacant Position"
                 />
               </div>
@@ -55,7 +71,7 @@ function Register() {
               </div>
             </div>
             <div className='text-center my-2'>
-              <div className="mb-1"><label>Expected Pay Range</label></div>
+              <div className="mb-1"><label>Expected Monthly Pay Range</label></div>
               <div>
                 <select type="text" placeholder="Select Pay Range"
                   className='border-2 border-purple-700 h-10 px-3 rounded-md w-80'
@@ -70,7 +86,7 @@ function Register() {
               </div>
             </div>
             <div className='text-center mb-3'>
-              <button className='bg-purple-600 text-white font-bold p-2 rounded-lg'>REGISTER</button>
+              <button className='bg-green-600 text-white font-bold p-3 rounded-lg w-80'>REGISTER</button>
             </div>
           </div>
         </form>

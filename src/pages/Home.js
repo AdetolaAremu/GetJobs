@@ -30,7 +30,7 @@ function Home() {
                 className='border border-white h-9 rounded-md p-5 ml-3 w-28 lg:w-56 md:w-32'
               /></div>
               <div>
-                <a href="/apply">
+                <a href="/seejobs">
                   <button className='bg-purple-800 text-white w-24 ml-3 p-2 rounded-md lg:w-28'>Find Job</button>
                 </a>
               </div>
@@ -74,7 +74,11 @@ function Home() {
           <div className='mt-5 flex justify-between px-16'>
             <div><p className='text-2xl mt-2'>Latest Jobs</p></div>
             <a href="/seejobs">
-              <button className='bg-pink-700 text-white p-2 rounded-lg'>See All</button>
+              <button className='bg-pink-700 text-white p-2 rounded-lg mr-0 lg:mr-24
+                hover:bg-pink-500'
+              >
+                See All
+              </button>
             </a>
           </div>
         </div>

@@ -49,7 +49,7 @@
   }
   
   .nav-links {
-    color: rgb(53, 52, 52);
+    color: white;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -63,7 +63,7 @@
   }
   
   .fa-bars {
-    color: #fff;
+    color: blue;
   }
   
   .nav-links-mobile {
@@ -83,7 +83,7 @@
       display: flex;
       flex-direction: column;
       width: 100%;
-      height: 90vh;
+      height: 75vh;
       position: absolute;
       top: 80px;
       left: -100%;
@@ -92,7 +92,7 @@
     }
   
     .nav-menu.active {
-      background: #242222;
+      background: rgb(243, 80, 51);
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
@@ -130,7 +130,7 @@
     }
   
     .fa-times {
-      color: #fff;
+      color: blue;
       font-size: 2rem;
     }
   
